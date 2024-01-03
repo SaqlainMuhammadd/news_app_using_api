@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:news_app_using_api/splash.dart';
+import 'package:news_app_using_api/home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,13 +11,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'FutureFlow News',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: splashScreen(),
+      home: homeScreen(),
     );
   }
 }

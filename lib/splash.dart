@@ -17,9 +17,14 @@ class _splashScreenState extends State<splashScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        child: Text(
+          'FutureFlow News',
+          style: TextStyle(
+              color: Colors.black, fontWeight: FontWeight.bold, fontSize: 25),
+        ),
         width: double.infinity,
         height: double.infinity,
-        color: Colors.red,
+        color: const Color.fromARGB(255, 253, 235, 234),
       ),
     );
   }
