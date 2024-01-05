@@ -35,7 +35,11 @@ class _homeScreenState extends State<homeScreen> {
           ),
         ],
       ),
-      body: Container(),
+      body: Container(
+        color: Colors.amber,
+        height: double.infinity,
+        width: double.infinity,
+      ),
     );
   }
 }
