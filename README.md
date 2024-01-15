@@ -69,6 +69,10 @@ The app uses the [News API](https://newsapi.org/) to fetch news data. You will n
 
 Feel free to contribute to the project by opening issues or submitting pull requests.
 
+## Hire Me
+
+If you're interested in hiring me or collaborating on projects, you can reach me at [https://muhammadsaqlain.vercel.app/](https://muhammadsaqlain.vercel.app/).
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
