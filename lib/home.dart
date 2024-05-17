@@ -20,7 +20,7 @@ class _homeScreenState extends State<homeScreen> {
           child: Padding(
             padding: const EdgeInsets.all(8.0),
             child: Text(
-              'FutureFlow News',
+              'Today News',
               style: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.bold,
