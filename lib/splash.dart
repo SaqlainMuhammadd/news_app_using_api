@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:news_app_using_api/auth/login.dart';
 import 'package:news_app_using_api/home.dart';
 // import 'package:google_fonts/google_fonts.dart';
 
@@ -21,7 +22,7 @@ class _splashScreenState extends State<splashScreen> {
 
     Timer(Duration(seconds: 2), () {
       Navigator.pushReplacement(
-          context, MaterialPageRoute(builder: (context) => homeScreen()));
+          context, MaterialPageRoute(builder: (context) => LoginPage()));
     });
   }
 
@@ -34,17 +35,17 @@ class _splashScreenState extends State<splashScreen> {
           child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Image.asset(
-            'images/assets/5.png',
-            fit: BoxFit.cover,
-            height: hight * 0.5,
-            width: Width * 1,
-          ),
+          // Image.asset(
+          //   'images/logo.png',
+          //   fit: BoxFit.fill,
+          //   height: hight * 0.5,
+          //   width: Width * 1,
+          // ),
           SizedBox(
             height: hight * .04,
           ),
           Text(
-            'Today News',
+            'NBC News',
             style: GoogleFonts.poppins(
               fontSize: 30,
               fontWeight: FontWeight.bold,

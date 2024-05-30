@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:news_app_using_api/models/news_headline.dart';
-import 'package:news_app_using_api/news_view_model/news_view_model.dart';
 import 'package:news_app_using_api/repository/respository.dart';
 
 class homeScreen extends StatefulWidget {
@@ -29,7 +28,7 @@ class _homeScreenState extends State<homeScreen> {
             child: Padding(
               padding: const EdgeInsets.all(8.0),
               child: Text(
-                'Today News',
+                'NBC News',
                 style: GoogleFonts.poppins(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,

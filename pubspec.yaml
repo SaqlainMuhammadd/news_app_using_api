@@ -41,6 +41,8 @@ dependencies:
   intl:
   cached_network_image:
   google_fonts: ^6.2.1
+  flare_flutter: ^3.0.2
+
 
 dev_dependencies:
   flutter_test:
